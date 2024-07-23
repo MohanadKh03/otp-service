@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+      - testing/automated-testing
   pull_request:
     branches:
       - master
+      - testing/automated-testing
 
 jobs:
   build:
